@@ -4,8 +4,8 @@
 
 # Lobe Chat
 
-An open-source, modern-design ChatGPT/LLMs UI/Framework.<br/>
-Supports speech-synthesis, multi-modal, and extensible ([function call][docs-functionc-call]) plugin system.<br/>
+An open-source, modern design ChatGPT/LLMs UI/framework.<br/>
+Supports speech synthesis, multi-modal, and extensible ([function call][docs-function-call]) plugin system.<br/>
 One-click **FREE** deployment of your private OpenAI ChatGPT/Claude/Gemini/Groq/Ollama chat application.
 
 **English** · [简体中文](./README.zh-CN.md) · [Official Site][official-site] · [Changelog][changelog] · [Documents][docs] · [Blog][blog] · [Feedback][github-issues-link]
@@ -206,11 +206,11 @@ We have implemented support for the following model service providers:
 - **[Groq](https://lobechat.com/discover/provider/groq)**: Groq's LPU inference engine has excelled in the latest independent large language model (LLM) benchmarks, redefining the standards for AI solutions with its remarkable speed and efficiency. Groq represents instant inference speed, demonstrating strong performance in cloud-based deployments.
 - **[Perplexity](https://lobechat.com/discover/provider/perplexity)**: Perplexity is a leading provider of conversational generation models, offering various advanced Llama 3.1 models that support both online and offline applications, particularly suited for complex natural language processing tasks.
 - **[Mistral](https://lobechat.com/discover/provider/mistral)**: Mistral provides advanced general, specialized, and research models widely used in complex reasoning, multilingual tasks, and code generation. Through functional calling interfaces, users can integrate custom functionalities for specific applications.
-- **[ModelScope](https://lobechat.com/discover/provider/modelscope)**:
+- **[ModelScope](https://lobechat.com/discover/provider/modelscope)**: ModelScope is a model-as-a-service platform launched by Alibaba Cloud, offering a wide range of AI models and inference services.
 - **[Ai21Labs](https://lobechat.com/discover/provider/ai21)**: AI21 Labs builds foundational models and AI systems for enterprises, accelerating the application of generative AI in production.
 - **[Upstage](https://lobechat.com/discover/provider/upstage)**: Upstage focuses on developing AI models for various business needs, including Solar LLM and document AI, aiming to achieve artificial general intelligence (AGI) for work. It allows for the creation of simple conversational agents through Chat API and supports functional calling, translation, embedding, and domain-specific applications.
-- **[xAI](https://lobechat.com/discover/provider/xai)**: xAI is a company dedicated to building artificial intelligence to accelerate human scientific discovery. Our mission is to advance our collective understanding of the universe.
-- **[Qwen](https://lobechat.com/discover/provider/qwen)**: Tongyi Qianwen is a large-scale language model independently developed by Alibaba Cloud, featuring strong natural language understanding and generation capabilities. It can answer various questions, create written content, express opinions, and write code, playing a role in multiple fields.
+- **[xAI (Grok)](https://lobechat.com/discover/provider/xai)**: xAI is a company dedicated to building artificial intelligence to accelerate human scientific discovery. Our mission is to advance our collective understanding of the universe.
+- **[Aliyun Bailian](https://lobechat.com/discover/provider/qwen)**: Tongyi Qianwen is a large-scale language model independently developed by Alibaba Cloud, featuring strong natural language understanding and generation capabilities. It can answer various questions, create written content, express opinions, and write code, playing a role in multiple fields.
 - **[Wenxin](https://lobechat.com/discover/provider/wenxin)**: An enterprise-level one-stop platform for large model and AI-native application development and services, providing the most comprehensive and user-friendly toolchain for the entire process of generative artificial intelligence model development and application development.
 - **[Hunyuan](https://lobechat.com/discover/provider/hunyuan)**: A large language model developed by Tencent, equipped with powerful Chinese creative capabilities, logical reasoning abilities in complex contexts, and reliable task execution skills.
 - **[ZhiPu](https://lobechat.com/discover/provider/zhipu)**: Zhipu AI offers an open platform for multimodal and language models, supporting a wide range of AI application scenarios, including text processing, image understanding, and programming assistance.
@@ -335,7 +335,7 @@ In addition, these plugins are not limited to news aggregation, but can also ext
 | [Bing_websearch](https://lobechat.com/discover/plugin/Bingsearch-identifier)<br/><sup>By **FineHow** on **2024-12-22**</sup> | Search for information from the internet base BingApi<br/>`bingsearch`                                                  |
 | [Google CSE](https://lobechat.com/discover/plugin/google-cse)<br/><sup>By **vsnthdev** on **2024-12-02**</sup>               | Searches Google through their official CSE API.<br/>`web` `search`                                                      |
 
-> 📊 Total plugins: [<kbd>**43**</kbd>](https://lobechat.com/discover/plugins)
+> 📊 Total plugins: [<kbd>**42**</kbd>](https://lobechat.com/discover/plugins)
 
  <!-- PLUGIN LIST -->
 
@@ -367,14 +367,14 @@ Our marketplace is not just a showcase platform but also a collaborative space. 
 
 <!-- AGENT LIST -->
 
-| Recent Submits                                                                                                                                                                                        | Description                                                                                                                                                      |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [学术论文综述专家](https://lobechat.com/discover/assistant/academic-paper-overview)<br/><sup>By **[arvinxx](https://github.com/arvinxx)** on **2025-03-11**</sup>                                     | 擅长高质量文献检索与分析的学术研究助手<br/>`学术研究` `文献检索` `数据分析` `信息提取` `咨询`                                                                    |
-| [Cron Expression Assistant](https://lobechat.com/discover/assistant/crontab-generate)<br/><sup>By **[edgesider](https://github.com/edgesider)** on **2025-02-17**</sup>                               | Crontab Expression Generator<br/>`crontab` `time-expression` `trigger-time` `generator` `technical-assistance`                                                   |
-| [Xiao Zhi French Translation Assistant](https://lobechat.com/discover/assistant/xiao-zhi-french-translation-asst-v-1)<br/><sup>By **[WeR-Best](https://github.com/WeR-Best)** on **2025-02-10**</sup> | A friendly, professional, and empathetic AI assistant for French translation<br/>`ai-assistant` `french-translation` `cross-cultural-communication` `creativity` |
-| [Investment Assistant](https://lobechat.com/discover/assistant/graham-investmentassi)<br/><sup>By **[farsightlin](https://github.com/farsightlin)** on **2025-02-06**</sup>                           | Helps users calculate the data needed for valuation<br/>`investment` `valuation` `financial-analysis` `calculator`                                               |
+| Recent Submits                                                                                                                                                                 | Description                                                                                                                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [Turtle Soup Host](https://lobechat.com/discover/assistant/lateral-thinking-puzzle)<br/><sup>By **[CSY2022](https://github.com/CSY2022)** on **2025-06-19**</sup>              | A turtle soup host needs to provide the scenario, the complete story (truth of the event), and the key point (the condition for guessing correctly).<br/>`turtle-soup` `reasoning` `interaction` `puzzle` `role-playing` |
+| [Gourmet Reviewer🍟](https://lobechat.com/discover/assistant/food-reviewer)<br/><sup>By **[renhai-lab](https://github.com/renhai-lab)** on **2025-06-17**</sup>                | Food critique expert<br/>`gourmet` `review` `writing`                                                                                                                                                                    |
+| [Academic Writing Assistant](https://lobechat.com/discover/assistant/academic-writing-assistant)<br/><sup>By **[swarfte](https://github.com/swarfte)** on **2025-06-17**</sup> | Expert in academic research paper writing and formal documentation<br/>`academic-writing` `research` `formal-style`                                                                                                      |
+| [Minecraft Senior Developer](https://lobechat.com/discover/assistant/java-development)<br/><sup>By **[iamyuuk](https://github.com/iamyuuk)** on **2025-06-17**</sup>           | Expert in advanced Java development and Minecraft mod and server plugin development<br/>`development` `programming` `minecraft` `java`                                                                                   |
 
-> 📊 Total agents: [<kbd>**488**</kbd> ](https://lobechat.com/discover/assistants)
+> 📊 Total agents: [<kbd>**505**</kbd> ](https://lobechat.com/discover/assistants)
 
  <!-- AGENT LIST -->
 
@@ -628,7 +628,7 @@ This project provides some additional configuration items set with environment v
 
 ## 🧩 Plugins
 
-Plugins provide a means to extend the [Function Calling][docs-functionc-call] capabilities of LobeChat. They can be used to introduce new function calls and even new ways to render message results. If you are interested in plugin development, please refer to our [📘 Plugin Development Guide][docs-plugin-dev] in the Wiki.
+Plugins provide a means to extend the [Function Calling][docs-function-call] capabilities of LobeChat. They can be used to introduce new function calls and even new ways to render message results. If you are interested in plugin development, please refer to our [📘 Plugin Development Guide][docs-plugin-dev] in the Wiki.
 
 - [lobe-chat-plugins][lobe-chat-plugins]: This is the plugin index for LobeChat. It accesses index.json from this repository to display a list of available plugins for LobeChat to the user.
 - [chat-plugin-template][chat-plugin-template]: This is the plugin template for LobeChat plugin development.
@@ -822,7 +822,7 @@ This project is [Apache 2.0](./LICENSE) licensed.
 [docs-feat-theme]: https://lobehub.com/docs/usage/features/theme
 [docs-feat-tts]: https://lobehub.com/docs/usage/features/tts
 [docs-feat-vision]: https://lobehub.com/docs/usage/features/vision
-[docs-functionc-call]: https://lobehub.com/blog/openai-function-call
+[docs-function-call]: https://lobehub.com/blog/openai-function-call
 [docs-lighthouse]: https://github.com/lobehub/lobe-chat/wiki/Lighthouse
 [docs-plugin-dev]: https://lobehub.com/docs/usage/plugins/development
 [docs-self-hosting]: https://lobehub.com/docs/self-hosting/start
